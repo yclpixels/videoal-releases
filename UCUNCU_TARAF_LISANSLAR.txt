@@ -1,0 +1,30 @@
+VideoAl — üçüncü taraf bileşenler ve lisansları
+================================================
+
+VideoAl aşağıdaki açık kaynak bileşenleri kullanır. Her bileşen kendi lisansına tabidir.
+
+Uygulamayla birlikte gelenler
+-----------------------------
+yt-dlp            Unlicense (kamu malı)            https://github.com/yt-dlp/yt-dlp
+yt-dlp-ejs        Unlicense, MIT, ISC              https://github.com/yt-dlp/ejs
+Python            PSF License                       https://www.python.org/
+Tcl/Tk            Tcl/Tk License (BSD tarzı)        https://www.tcl.tk/
+Pillow            MIT-CMU                           https://python-pillow.org/
+tkinterdnd2/tkdnd MIT / BSD                         https://github.com/Eliav2/tkinterdnd2
+PyInstaller       GPLv2 + dağıtım istisnası (derleyici; uygulamaya GPL getirmez)
+
+İlk açılışta, kullanıcı onayıyla indirilenler
+---------------------------------------------
+FFmpeg (ffmpeg.exe, ffprobe.exe)
+  Lisans: GNU GPL v3 (yt-dlp/FFmpeg-Builds derlemesi)
+  İndirme ve kaynak kodu: https://github.com/yt-dlp/FFmpeg-Builds
+                          https://ffmpeg.org/download.html
+  VideoAl FFmpeg'i değiştirmez; ayrı bir program olarak çalıştırır.
+
+Deno (deno.exe) — yalnız bilgisayarda Deno, Node.js 22+ ya da Bun yoksa
+  Lisans: MIT                       https://github.com/denoland/deno
+
+Kullanım notu
+-------------
+VideoAl yalnızca indirme hakkınız olan içerik için kullanılmalıdır. Sitelerin kullanım koşullarına ve
+telif haklarına uymak kullanıcının sorumluluğundadır.
